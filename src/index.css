@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Chathura:wght@800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-[Chathura];
+        @apply font-extrabold;
+    }
+    li {
+        @apply px-5;
+        @apply cursor-pointer;
+       
+    }
+}
