@@ -1,5 +1,5 @@
 
-This is my internship task project to create a self-Portfolio website.
+This is my Web Development project to create a self-Portfolio website.
 
 I used some help from youtube to create this website.
 
