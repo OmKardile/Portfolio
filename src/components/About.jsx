@@ -32,6 +32,10 @@ const About = () => {
         </div>
       </div>
     </div>
+  );
+};
+
+export default About;
 
     // <div name="about" className="w-full h-screen bg-[#1e2528] text-white text-5xl">
     //   {" "}
@@ -65,7 +69,3 @@ const About = () => {
     //     </div>
     //   </div>
     // </div>
-  );
-};
-
-export default About;

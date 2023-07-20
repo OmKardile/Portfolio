@@ -16,26 +16,7 @@ import { IconContext } from "react-icons";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
-  {
-    /* 
-    const [effect, setEffect] = useState(false);
-    <div className="flex h-screen flex-col justify-center">
-      <div className="flex justify-center">
-        <button
-          className={`${
-            effect && "animate-wiggle"
-          } bg-blue-500 p-4 text-white rounded hover:bg-blue-700 hover:shadow-xl`}
-          onClick={() => {
-            setEffect(true);
-          }}
-          onAnimationEnd={() => setEffect(false)}
-        >
-          Wiggle Button
-        </button>
-      </div>
-    </div>
-*/
-  }
+  
   return (
     <>
       <div className="chathura fixed w-full h-20 flex justify-between items-center px-4 bg-[#0EF6BE]">
@@ -132,3 +113,24 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+{
+  /* 
+  const [effect, setEffect] = useState(false);
+  <div className="flex h-screen flex-col justify-center">
+    <div className="flex justify-center">
+      <button
+        className={`${
+          effect && "animate-wiggle"
+        } bg-blue-500 p-4 text-white rounded hover:bg-blue-700 hover:shadow-xl`}
+        onClick={() => {
+          setEffect(true);
+        }}
+        onAnimationEnd={() => setEffect(false)}
+      >
+        Wiggle Button
+      </button>
+    </div>
+  </div>
+*/
+}

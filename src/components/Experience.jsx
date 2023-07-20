@@ -9,12 +9,18 @@ const Experience = () => {
                 <p className='font-bold inline border-b-4 border-[#0EF6BE] max-sm:text-5xl text-7xl '>Experience</p>
                 <p className='max-sm:text-4xl text-5xl sm:py-10 pt-8 '>My Internship experience with industry</p>
             </div>
-            <div>
-              <div>
-                <div>
-                  <span>
+            
+        </div>
 
-                  </span>
+    </div>
+  )
+}
+
+export default Experience
+
+{/* <div>
+              <div>
+                <div><span></span>
                   <div>
                     <a href="/">
                       <button></button>
@@ -25,11 +31,4 @@ const Experience = () => {
                   </div>
                 </div>
               </div>
-            </div>
-        </div>
-
-    </div>
-  )
-}
-
-export default Experience
+            </div> */}
