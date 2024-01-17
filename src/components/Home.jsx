@@ -7,7 +7,7 @@ const Home = () => {
     <div name='home' className='bg-[#1e2528] w-full h-screen'>    
       
     <div id='container' className='max-sm:ml-5 max-w-[1000px] mx-auto flex flex-col justify-center h-full'>
-      <p className='text-8xl max-sm:text-5xl text-[#c0f4e8]'>Hello, </p>
+      <p className='text-8xl max-sm:text-5xl text-[#c0f4e8]'>Konichiwa, </p>
       <p className='text-5xl max-sm:text-3xl text-slate-300'>I am <strong className='text-[#e2e6f4] max-sm:text-6xl text-9xl'>Omkar Kardile</strong></p>
       <p className='text-6xl max-sm:text-4xl text-[#bcbfc8] pt-6'><h4 className='max-sm:text-5xl text-7xl text-[#bcbfc8] font-bold'>I'm a <strong className=''>Designer. I like to design Ui/Ux, FrontEnd Web,</strong> etc.</h4>
       Please take a look around my portfolio.</p>
