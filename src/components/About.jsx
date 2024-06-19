@@ -3,6 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div
+    id="about"
       name="about"
       className="w-full h-screen bg-[#1e2528] text-white"
     >

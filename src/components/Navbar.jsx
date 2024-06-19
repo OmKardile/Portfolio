@@ -5,8 +5,6 @@ import {
   FaLinkedin,
   FaInstagram,
   FaGithub,
-  FaVoicemail,
-  FaWhatsapp,
 } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -26,11 +24,11 @@ const Navbar = () => {
 
         <div className="text-4xl hidden md:flex">
           <ul className="flex">
-            <li>Home</li>
-            <li>About</li>
-            <li>Skills</li>
-            <li>Experience</li>
-            <li>Contact</li>
+            <li><a className="hover:underline hover:text-white" href="#home">Home</a></li> 
+            <li><a className="hover:underline hover:text-white" href="#about">About</a></li>
+            <li><a className="hover:underline hover:text-white" href="#skills">Skills</a></li>
+            <li><a className="hover:underline hover:text-white" href="#experience">Experience</a></li>
+            <li><a className="hover:underline hover:text-white" href="#contact">Contact</a></li>
           </ul>
         </div>
 
@@ -63,7 +61,7 @@ const Navbar = () => {
               >
                 <a
                   className="flex justify-between items-center w-full text-black"
-                  href="/"
+                  href="https://www.linkedin.com/in/omkar-kardile-49501b213/" target="_blank"
                 >
                   LinkedIn <FaLinkedin size={27} />
                 </a>
@@ -75,7 +73,7 @@ const Navbar = () => {
               >
                 <a
                   className="flex justify-between items-center w-full text-black"
-                  href="/"
+                  href="https://github.com/OmKardile" target="_blank"
                 >
                   GitHub <FaGithub size={27} />
                 </a>
@@ -87,9 +85,9 @@ const Navbar = () => {
               >
                 <a
                   className="flex justify-between items-center w-full text-black"
-                  href="/"
+                  href="https://www.instagram.com/whysoserious._.5/" target="_blank"
                 >
-                  LinkedIn <FaInstagram size={27} />
+                  Instagram <FaInstagram size={27} />
                 </a>
               </IconContext.Provider>
             </li>
@@ -99,7 +97,7 @@ const Navbar = () => {
               >
                 <a
                   className="flex justify-between items-center w-full text-black"
-                  href="/"
+                  href="mailto:omkardile84@gmail.com" 
                 >
                   Email <HiOutlineMail size={27} />
                 </a>

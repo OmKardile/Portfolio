@@ -10,7 +10,7 @@ import Figma from "../assets/figma.png";
 
 const Skills = () => {
   return (
-    <div name='skills' className="w-full h-screen bg-[#1e2528] text-white">
+    <div id="skills" name='skills' className="w-full h-screen bg-[#1e2528] text-white">
         {/* <div className='pl-20'> */}
         <div  className='max-w-[1024px] mx-auto pt-4 flex flex-col justify-center w-full h-full'>
             <div className=''>
